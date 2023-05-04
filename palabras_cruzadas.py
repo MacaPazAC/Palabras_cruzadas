@@ -7,11 +7,10 @@ h = 2
 o = 3
 l = 2
 a = 3"""
+
 contador = 0
-print("Ingrese palabra1:")
-palabra1 = input()
-print("Ingrese palabra2:")
-palabra2 = input()
+palabra1 = input("Ingrese palabra1:")
+palabra2 = input("Ingrese palabra2:")
 for letra1 in palabra1: 
   #print(letra1)
 	contador = 0 #reinicio
